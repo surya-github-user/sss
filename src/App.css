@@ -1,0 +1,243 @@
+.iconbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  background-color: rgb(244 246 247);
+}
+
+.icon {
+  margin: 10px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+
+  &:hover {
+    background-color: #e0e0e0 !important;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.icon:active {
+  background-color: rgb(241, 242, 243) !important;
+  border-left: green 1px solid;
+}
+
+.whatsappicon {
+  fill: green;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+}
+
+.maintwo {
+  display: flex;
+  width: 100%;
+  border: #e7e4e4 1px solid;
+}
+
+.maintwo>:first-child {
+  flex-grow: 1;
+  border-right: #e7e4e4 1px solid;
+}
+
+.maintwo>:nth-child(2) {
+  flex-grow: 7;
+
+}
+
+
+
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  padding: 5px;
+  margin: 15px 0px;
+
+  &:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+
+  &:active {
+    background-color: #cccccc;
+    border-radius: 5px;
+  }
+}
+
+.username {
+  padding: 8px 20px;
+}
+
+.sidebar {
+  padding: 10px;
+
+}
+
+.sidebarheading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+
+.sidebarheading svg {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.sidebarheading p {
+  font-weight: bold;
+}
+
+
+.searchinput input {
+
+  outline: none;
+  border: #e7e4e4 1px solid;
+  border-bottom: green 2px solid;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.messageheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: #e0e0e0 1px solid;
+}
+
+.messageheaderone {
+  display: flex;
+}
+
+.messageheadertwo {
+  display: flex;
+}
+
+.messageheadertwo svg {
+  width: 20px;
+  height: 20px;
+}
+
+.videophone {
+  display: flex;
+  border: #e0e0e0 1px solid;
+  margin-right: 10px;
+}
+
+.videophone>div:hover {
+
+  background-color: #e0e0e0;
+
+}
+
+.videophone svg {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+
+}
+
+.videophone :first-child {
+  border-right: #e0e0e0 1px solid;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.messageinputsection {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-top: #e0e0e0 1px solid;
+}
+
+.messageinputsection svg {
+  width: 20px;
+  height: 20px;
+}
+
+.smile,
+.paperclip {
+  margin-left: 20px;
+}
+
+.mic {
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+
+.messageinput {
+  margin-left: 20px;
+  outline: none;
+  border: #e7e4e4 1px solid;
+  width: 400px;
+  padding: 4px 10px;
+}
+
+.send {
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  border-radius: 1px;
+  padding: 4px 4px;
+
+}
+
+.messages {
+  height: calc(100vh - 200px);
+  overflow-y: scroll;
+  background: url(https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg);
+  background-attachment: fixed;
+  opacity: 75%;
+}
+
+.defaultmain {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.whatsapp {
+  fill: #6c757d !important;
+  width: 40px;
+  height: 40px;
+}
+.message{
+  background-color: #DCF8C6;
+  color: black;
+  padding: 5px 10px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 0px;
+ border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+
+
+}
+.deletebtn{
+  all: unset;
+}
